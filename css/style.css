@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
+}
+
+.home-content{
+    padding-right: 50px;
+}
+
+
+
+.home{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100vh;
+    align-items: center;
+}
+.home-content .heading{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 44px;
+    color: #21243D;
+}
+
+.home-content .btn-resume{
+    color: white;
+    background-color: #FF6464;
+    border: none;
+    padding: 8px 10px 8px 10px;
+}
+.my-img{
+    height: 243px;
+    border-radius: 350px;
+}
+
+/* Post section */
+.post{
+    background-color: #EDF7FA;
+}
+
+.post-container{
+    padding: 0 150px 0 150px;
+
+}
+
+.post-container .heading{
+    display: flex;
+    justify-content: space-between;
+       
+}
+
+.post-container .heading h3{
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.post-container .heading a{
+    text-decoration: none;
+    margin: 18px 10px 0 0;
+}
+
+.card-container .card{
+    background-color: #FFFFFF;
+    margin: 10px;
+    padding: 20px;
+    /* width: 418px; */
+}
+
+.card h2{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.card .i{
+    margin: 0 10px 0 10px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+/* LIST */
+
+.work{
+    padding: 0 150px 0 150px;
+}
+
+.work h3{
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.work .list{
+    display: flex;
+    border-bottom: 2px solid #E0E0E0;
+    padding: 10px;
+    align-items: center;
+}
+
+.work .list img{
+    margin-right: 15px;
+    height: 180px;
+
+}
+
+.work .list .card .icon{
+    color: white;
+    padding: 0 10px 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #142850;
+    margin-right: 20px;
+}
+
+.work .list .card .caption{
+    color: #8695A4;
+}
+
+
+/* Footer */
+.footer{
+    padding: 100px 0 25px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .icon-set img{
+    margin: 10px 15px;
+}
